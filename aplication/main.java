@@ -18,7 +18,7 @@ public class main{
         System.out.println("Invalid position!");
     }
 
-    System.out.println("\nEnd of program");
+    System.out.println("\nEnd of program!");
 
     sc.close();
 

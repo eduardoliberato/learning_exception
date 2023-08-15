@@ -21,8 +21,11 @@ public class main{
     catch (InputMismatchException e){
         System.out.println("Please enter a number!");
     }
-
-    System.out.println("\nEnd of program!");
+    //the finally executes in any condition
+    finally {
+        System.out.println("\nEnd of program!");
+    }
+    
 
     sc.close();
 

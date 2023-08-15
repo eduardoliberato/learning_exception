@@ -1,4 +1,5 @@
 package aplication;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class main{
@@ -16,6 +17,9 @@ public class main{
     }
     catch (ArrayIndexOutOfBoundsException e){
         System.out.println("Invalid position!");
+    }
+    catch (InputMismatchException e){
+        System.out.println("Please enter a number!");
     }
 
     System.out.println("\nEnd of program!");
